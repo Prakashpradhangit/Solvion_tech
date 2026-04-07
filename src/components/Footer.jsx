@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Linkedin, Twitter, Github, Mail, MapPin, Phone } from 'lucide-react'
+import { Linkedin, Twitter, Github, Mail, MapPin, Phone, Facebook} from 'lucide-react'
 
 const Footer = () => {
   return (
@@ -19,7 +19,7 @@ const Footer = () => {
               Your trusted partner for AI-driven business solutions and digital transformation.
             </p>
             <div className="flex gap-4">
-              {[Linkedin, Twitter, Github].map((Icon, i) => (
+              {[Linkedin, Twitter, Facebook].map((Icon, i) => (
                 <a 
                   key={i} 
                   href="#" 
